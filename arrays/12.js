@@ -7,5 +7,7 @@
  */
 export function addHashtags(topics) {
   // TODO: Use the map() method to add a hashtag to each topic
-  // TODO: Return the new array of topics with hashtags
+  const newtopics = topics.map(topics => '#' + topics)
+// TODO: Return the new array of topics with hashtags
+return newtopics
 }
