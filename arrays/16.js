@@ -8,6 +8,8 @@
  */
 export function applyDiscount(prices, discount) {
   // TODO: Use the map() method to apply the discount to each price
+  const discountprice = prices.map(price => price - (price* discount /100))
   // Formula: price - (price * discount / 100)
   // TODO: Return the new array of discounted prices
+  return discountprice
 }

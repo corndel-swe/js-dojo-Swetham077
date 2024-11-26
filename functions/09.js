@@ -7,5 +7,10 @@
  * Example: isSpeeding(80, 70) should return true.
  */
 export function isSpeeding(speed, speedLimit) {
-  // TODO: return true if speed is greater than speedLimit
+  // Return true if speed is greater than speedLimit
+  if (speed > speedLimit) {
+    return true;
+  } else {
+    return false;
+  }
 }

@@ -7,6 +7,9 @@
  */
 export function firstAndLastName(names) {
   // TODO: Get the first element from the array
+  const firstelement = names[0]
   // TODO: Get the last element from the array
+  const lastelement = names[names.length -1]
   // TODO: Return an array containing the first and last elements
+  return [firstelement, lastelement]
 }

@@ -8,7 +8,11 @@
  */
 export function updateStepCounts(stepCounts, newStepCount) {
   // TODO: Use the push() method to add the new step count to the array
+  stepCounts.push(newStepCount)
   // TODO: Use the filter() method to keep step counts that are 5000 or above
+  const FilteredCount = stepCounts.filter(count => count>= 5000)
   // TODO: Use the map() method to increase each remaining step count by 1000
+  const increasedCount = FilteredCount.map(count => count + 1000)
   // TODO: Return the new array of modified step counts
+  return increasedCount
 }

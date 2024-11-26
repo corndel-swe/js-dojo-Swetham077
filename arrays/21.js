@@ -8,7 +8,11 @@
  */
 export function updatePrices(prices, newPrice) {
   // TODO: Use the push() method to add the new price to the array
+  prices.push('newPrice')
   // TODO: Use the filter() method to keep prices 100 or below
+  const filteredPrices = prices.filter(price => price <= 100)
   // TODO: Use the map() method to double each remaining price
+  const doubledprices = filteredPrices.map(price => price * 2)
   // TODO: Return the new array of modified prices
+  return doubledprices
 }

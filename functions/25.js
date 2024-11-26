@@ -9,4 +9,7 @@
  */
 export function compoundInterest(principal, rate, time) {
   // TODO: return the accumulated amount using the formula A = P(1 + r)^t
+  const accumulated = principal * (1 + rate) ** time;
+  return accumulated
 }
+

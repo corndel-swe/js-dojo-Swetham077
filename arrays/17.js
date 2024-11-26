@@ -7,6 +7,8 @@
  * prefixCategory(['Laptop', 'Phone', 'Tablet'], 'Electronics'); // returns ['Electronics: Laptop', 'Electronics: Phone', 'Electronics: Tablet']
  */
 export function prefixCategory(products, category) {
-  // TODO: Use the map() method to prefix each product with the category
-  // TODO: Return the new array of prefixed products
+  // Use the map() method to prefix each product with the category
+  const prefixedProducts = products.map(product => `${category}: ${product}`);
+  // Return the new array of prefixed products
+  return prefixedProducts;
 }
