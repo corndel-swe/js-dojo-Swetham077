@@ -8,4 +8,6 @@
  */
 export function totalCost(price, quantity) {
   // TODO: return the total cost by multiplying price and quantity
+    return price * quantity;
+
 }

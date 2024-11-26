@@ -7,7 +7,19 @@
  * Example: ticketPrice(17, false) should return 8.
  */
 export function ticketPrice(age, isMember) {
-  // TODO: Determine the price based on the age and membership status
-  // Prices: $8 for children (under 18), $10 for adults, $6 for seniors (65+)
-  // Members get a $2 discount
+  let price;
+
+  if (age < 18) {
+    price = 8; // Children
+  } else if (age >= 65) {
+    price = 6; // Seniors
+  } else {
+    price = 10; // Adults
+  }
+
+  if (isMember) {
+    price -= 2; // Members get a $2 discount
+  }
+
+  return price;
 }
