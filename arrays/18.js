@@ -8,5 +8,7 @@
  */
 export function filterPrices(prices, threshold) {
   // TODO: Use the filter() method to get prices above the threshold
+  const filteredPrices = prices.filter(prices => prices > threshold)
   // TODO: Return the new array of filtered prices
+  return filteredPrices
 }
