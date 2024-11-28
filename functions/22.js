@@ -24,7 +24,7 @@ export function determineGrade(score) {
     return D
   }
   // Below 60: 'F'
-  is (score < 60) {
+  if (score < 60) {
     return F
   }
 }

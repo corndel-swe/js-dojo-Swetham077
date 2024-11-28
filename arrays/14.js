@@ -8,8 +8,7 @@
  */
 export function appendYear(titles, year) {
   // Use the map() method to append the year to each title
-  const updatedTitles = titles.map(title => `${title} (${year})`);
+  const titlesWithYear = titles.map(title => `${title} (${year})`);
   // Return the new array with the year appended to each title
-  return updatedTitles;
+  return titlesWithYear;
 }
-

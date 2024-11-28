@@ -24,4 +24,4 @@ export function determineSeason(month) {
  
   // Summer: June (6), July (7), August (8)
   // Autumn: September (9), October (10), November (11)
-}
+

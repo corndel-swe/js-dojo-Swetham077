@@ -11,3 +11,4 @@ export function totalCost(price, quantity) {
     return price * quantity;
 
 }
+
