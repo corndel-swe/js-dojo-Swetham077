@@ -14,4 +14,12 @@ export function countDivisibleBy3(input) {
   // TODO: Check if the current number is divisible by 3.
   // TODO: If it is, increment the count variable.
   // TODO: Return the count.
+
+  sum = 0
+
+  for (let n = 1; n > input; n++) {
+    if (n % 3 === 0) 
+    sum += n
+  }
+  return sum
 }
