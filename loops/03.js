@@ -14,4 +14,12 @@ export function sumEvenNumbers(input) {
   // TODO: Check if the current number is even.
   // TODO: If it is, add it to the sum variable.
   // TODO: Return the sum.
+  let sum = 0;
+for (let n = 1; n < input; n++)
+  if (n % 2 === 0) {
+    sum += n
 }
+return sum
+}
+
+
