@@ -13,4 +13,10 @@ export function sumSquares(input) {
   // TODO: Use a for loop to iterate from 1 to one less than the input number.
   // TODO: Add the square of each number to the sum variable.
   // TODO: Return the sum.
+
+  let sum = 0
+  for (let n = 1; n < input; n++) {
+    sum += n ** 2;
+}
+return sum
 }

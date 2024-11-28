@@ -7,5 +7,6 @@
  */
 export function doubleLikes(likes) {
   // TODO: Use the map() method to double each like count
+  const newlikescount = likes.map(likes => likes * 2)
   // TODO: Return the new array with doubled likes
-}
+  return newlikescount}

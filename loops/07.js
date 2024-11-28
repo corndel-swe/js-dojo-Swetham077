@@ -15,4 +15,12 @@ export function sumOfDigits(num) {
   // TODO: Remove the last digit from the number.
   // TODO: Continue the loop until all digits are processed.
   // TODO: Return the sum.
+  let sum = 0
+  while (num > 0) {
+  sum += num % 10; 
+  num = parseInt(num / 10);
+
 }
+  return sum;
+}
+
